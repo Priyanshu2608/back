@@ -3,8 +3,6 @@ const express = require('express')
 const app = express()
 const githubData= "priyanshu vasudev, city: Amritsar"
 
-
-
 app.get('/', (req, res) => {
   res.send('Hello World!')
 })
